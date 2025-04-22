@@ -1,5 +1,3 @@
-# fase_2
-
 # Regras de Negócio:
 
 Em cada plantação é possível cultivar diferentes culturas ao longo do tempo, porém apenas uma cultura por vez em determinado período.
@@ -12,13 +10,10 @@ As aplicações de água e nutrientes são registradas com data, tipo e quantida
 
 O histórico de plantio (DATA_INICIO e DATA_FIM) é essencial para rastrear os períodos de cultivo de cada cultura em cada plantação.
 
----
-
 # MER (Modelo Entidade-Relacionamento):
 
----
 
-T_CULTURA
+**T_CULTURA**
 
 ID_CULTURA (INTEGER): Identificador único da cultura (PK)
 
@@ -28,9 +23,8 @@ TIPO_CULTURA (VARCHAR(20)): Tipo da cultura (ex: grãos, frutas)
 
 ESTACAO_PLANTIO (VARCHAR(30)): Estação do ano em que se planta
 
----
 
-T_PLANTACAO
+**T_PLANTACAO**
 
 ID_PLANTACAO (INTEGER): Identificador único da plantação (PK)
 
@@ -40,9 +34,8 @@ LOCALIZACAO (VARCHAR(20)): Localização física ou geográfica
 
 TAMANHO_HECTARES (NUMBER): Tamanho da plantação em hectares
 
----
 
-T_PLANTACAO_CULTURA
+**T_PLANTACAO_CULTURA**
 
 ID_PLANTACAO_CULTURA (INTEGER): Identificador da cultura plantada (PK)
 
@@ -50,9 +43,8 @@ DATA_INICIO (TIMESTAMP): Data de início do ciclo da cultura
 
 DATA_FIM (TIMESTAMP): Data de término do ciclo da cultura
 
----
 
-T_SENSOR
+**T_SENSOR**
 
 ID_SENSOR (INTEGER): Identificador do sensor (PK)
 
@@ -64,9 +56,8 @@ DATA_INSTALACAO (TIMESTAMP): Data de instalação do sensor
 
 T_PLANTACAO_ID_PLANTACAO (INTEGER): Referência à plantação onde está instalado (FK)
 
----
 
-T_LEITURA_SENSOR
+**T_LEITURA_SENSOR**
 
 ID_LEITURA (INTEGER): Identificador da leitura (PK)
 
@@ -78,9 +69,8 @@ TIPO_NUTRIENTE (VARCHAR(30)): Tipo de nutriente (se aplicável)
 
 T_SENSOR_ID_SENSOR (INTEGER): Sensor associado (FK)
 
----
 
-T_APLICACAO_AGUA
+**T_APLICACAO_AGUA**
 
 ID_APLICACAO_AGUA (INTEGER): Identificador da aplicação (PK)
 
@@ -90,9 +80,8 @@ QUANTIDADE_LITROS (NUMBER): Volume aplicado
 
 T_PLANTACAO_ID_PLANTACAO (INTEGER): Plantação associada (FK)
 
----
 
-T_APLICACAO_NUTRIENTE
+**T_APLICACAO_NUTRIENTE**
 
 ID_APLICACAO_NUTRIENTE (INTEGER): Identificador da aplicação (PK)
 
@@ -104,7 +93,6 @@ QUANTIDADE (NUMBER): Quantidade aplicada
 
 T_PLANTACAO_ID_PLANTACAO (INTEGER): Plantação associada (FK)
 
----
 
 # Relacionamentos e Cardinalidades:
 
