@@ -30,7 +30,7 @@ ID_PLANTACAO (INTEGER): Identificador único da plantação (PK)
 
 NOME_PLANTACAO (VARCHAR(50)): Nome atribuído à plantação
 
-LOCALIZACAO (VARCHAR(20)): Localização física ou geográfica
+LOCALIZACAO (VARCHAR(30)): Localização física ou geográfica
 
 TAMANHO_HECTARES (NUMBER): Tamanho da plantação em hectares
 
