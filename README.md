@@ -22,7 +22,7 @@ NOME_CULTURA (VARCHAR(50)): Nome da cultura plantada
 TIPO_CULTURA (VARCHAR(20)): Tipo da cultura (ex: grãos, frutas)
 
 ESTACAO_PLANTIO (VARCHAR(30)): Estação do ano em que se planta
-<br>
+
 
 **T_PLANTACAO**
 
