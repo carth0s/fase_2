@@ -1,6 +1,6 @@
 # fase_2
 
-Regras de Negócio:
+# Regras de Negócio:
 
 Em cada plantação é possível cultivar diferentes culturas ao longo do tempo, porém apenas uma cultura por vez em determinado período.
 
@@ -14,7 +14,7 @@ O histórico de plantio (DATA_INICIO e DATA_FIM) é essencial para rastrear os p
 
 ---
 
-MER (Modelo Entidade-Relacionamento):
+# MER (Modelo Entidade-Relacionamento):
 
 ---
 
@@ -106,7 +106,7 @@ T_PLANTACAO_ID_PLANTACAO (INTEGER): Plantação associada (FK)
 
 ---
 
-Relacionamentos e Cardinalidades:
+# Relacionamentos e Cardinalidades:
 
 Uma plantação possui vários sensores (1:N – T_PLANTACAO → T_SENSOR)
 
