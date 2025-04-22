@@ -111,4 +111,4 @@ Uma cultura pode ser plantada em várias plantações ao longo do tempo (1:N –
 
 # Instruções para abrir o arquivo:
 
-Para abrir DER.dmd no Data Modeler, descompacte o ZIP mantendo a pasta DER ao lado do .dmd; sem ela o diagrama não é carregado.
+Para abrir DER.dmd no Data Modeler, descompacte o ZIP mantendo a pasta DER ao lado do .dmd, sem ela o diagrama não é carregado.
